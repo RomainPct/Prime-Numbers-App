@@ -23,6 +23,8 @@ class SearchViewController: UIViewController, UITableViewDataSource {
 
         // Do any additional setup after loading the view.
         ui_primeNumbersTable.dataSource = self
+        
+        menuManager().addMenuButton(view: view)
     }
 
     override func didReceiveMemoryWarning() {

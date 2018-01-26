@@ -18,6 +18,7 @@
 		DEC50CE3200A1DA400CACEAB /* bottomBorderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC50CE2200A1DA400CACEAB /* bottomBorderUIView.swift */; };
 		DEC50CE5200A341F00CACEAB /* input.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC50CE4200A341F00CACEAB /* input.swift */; };
 		DEC50CE7200A345F00CACEAB /* button.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC50CE6200A345F00CACEAB /* button.swift */; };
+		DEE0B5CD201A680300418DC4 /* menuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0B5CC201A680300418DC4 /* menuManager.swift */; };
 		DEEEAF0720127CB7008A1B76 /* WhatIsNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEAF0620127CB7008A1B76 /* WhatIsNextViewController.swift */; };
 		DEEEAF0A20128BBD008A1B76 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEAF0920128BBD008A1B76 /* SearchViewController.swift */; };
 		DEF34E322018F1F200BADB18 /* SearchBetweenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF34E312018F1F200BADB18 /* SearchBetweenViewController.swift */; };
@@ -49,6 +50,7 @@
 		DEC50CE2200A1DA400CACEAB /* bottomBorderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bottomBorderUIView.swift; sourceTree = "<group>"; };
 		DEC50CE4200A341F00CACEAB /* input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = input.swift; sourceTree = "<group>"; };
 		DEC50CE6200A345F00CACEAB /* button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button.swift; sourceTree = "<group>"; };
+		DEE0B5CC201A680300418DC4 /* menuManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuManager.swift; sourceTree = "<group>"; };
 		DEEEAF0620127CB7008A1B76 /* WhatIsNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsNextViewController.swift; sourceTree = "<group>"; };
 		DEEEAF0920128BBD008A1B76 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		DEF34E312018F1F200BADB18 /* SearchBetweenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBetweenViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				DE71D01C2006B46000417B08 /* primeNumbersManager.swift */,
+				DEE0B5CC201A680300418DC4 /* menuManager.swift */,
 			);
 			name = class;
 			path = "New Group";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE0B5CD201A680300418DC4 /* menuManager.swift in Sources */,
 				DEEEAF0720127CB7008A1B76 /* WhatIsNextViewController.swift in Sources */,
 				DEC50CE5200A341F00CACEAB /* input.swift in Sources */,
 				DEEEAF0A20128BBD008A1B76 /* SearchViewController.swift in Sources */,
