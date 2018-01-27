@@ -14,23 +14,21 @@ class button: UIButton {
     // An empty implementation adversely affects performance during animation.
 //    override func draw(_ rect: CGRect) {
 //        // Drawing code
-//        self.frame = CGRect(x: rect.minX, y: rect.minY, width: rect.width + 80, height: 40)
 //    }
     
     override func layoutSubviews() {
         super.layoutSubviews()
         self.layer.cornerRadius = 10
+        self.layer.backgroundColor = superview?.tintColor.cgColor
+        self.setTitleColor(UIColor(hue: 0, saturation: 0, brightness: 0, alpha: 0.87), for: .normal)
     }
 
 }
 
-class menuButton: UIButton {
+class menuButton: button {
     override func layoutSubviews() {
         super.layoutSubviews()
-        self.layer.cornerRadius = 10
         self.layer.maskedCorners = [.layerMinXMaxYCorner,.layerMinXMinYCorner]
-        self.layer.backgroundColor = superview?.tintColor.cgColor
-        self.setTitleColor(UIColor(hue: 0, saturation: 0, brightness: 0, alpha: 0.87), for: .normal)
         self.contentEdgeInsets = UIEdgeInsetsMake(8, 40, 8, 40)
     }
 }

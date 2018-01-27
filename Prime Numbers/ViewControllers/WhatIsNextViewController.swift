@@ -23,7 +23,7 @@ class WhatIsNextViewController: UIViewController, UITextFieldDelegate {
         // Do any additional setup after loading the view.
         ui_numberInput.delegate = self
         
-        menuManager().addMenuButton(view: view)
+        menuManager().setMenu(superview: view)
     }
 
     override func didReceiveMemoryWarning() {

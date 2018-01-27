@@ -10,7 +10,12 @@ import UIKit
 
 class menuManager {
     
-    func addMenuButton(view : UIView) {
+    func setMenu(superview view:UIView) {
+        addMenuButton(view: view)
+        placeMenu(view: view)
+    }
+    
+    private func addMenuButton(view : UIView) {
         let ui_menuButton = menuButton()
         ui_menuButton.setTitle("Menu", for: .normal)
         ui_menuButton.addTarget(menuManager.self, action: #selector(menuManager.menuButtonTaped), for: .touchUpInside)
@@ -21,27 +26,21 @@ class menuManager {
         view.addConstraints([cs_stickToLeft,cs_spaceToBottom])
     }
     
+    private func placeMenu(view:UIView) {
+        let cs = view.constraints.filter{ $0.identifier == "menuLeading"}.first
+        cs?.constant = -view.frame.width
+    }
+    
     @objc static func menuButtonTaped(_ button: menuButton) {
-        if let view = button.superview,
-            let menuContainer = view.viewWithTag(100) {
-            if menuContainer.frame.width == 0 {
-                self.openMenu(view: view, menuContainer: menuContainer, width: view.frame.width)
-            } else {
-                self.closeMenu(view: view, menuContainer: menuContainer)
+        if let view = button.superview {
+            let cs = view.constraints.filter{ $0.identifier == "menuLeading"}.first
+            if let cs = cs {
+                cs.constant = cs.constant == 0 ? -view.frame.width : 0
+                UIView.animate(withDuration: 0.3, delay: 0, options: [.beginFromCurrentState,.curveEaseIn], animations: {
+                    view.layoutIfNeeded()
+                }, completion: nil)
             }
         }
-    }
-    private static func openMenu(view:UIView, menuContainer:UIView, width:CGFloat) {
-        menuContainer.constraints.last?.constant = width
-        UIView.animate(withDuration: 0.3, delay: 0, options: [.beginFromCurrentState,.curveEaseIn], animations: {
-            view.layoutIfNeeded()
-        }, completion: nil)
-    }
-    private static func closeMenu(view:UIView, menuContainer:UIView) {
-        menuContainer.constraints.last?.constant = 0
-        UIView.animate(withDuration: 0.3, delay: 0, options: [.beginFromCurrentState,.curveEaseIn], animations: {
-            view.layoutIfNeeded()
-        }, completion: nil)
     }
     
 }

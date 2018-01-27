@@ -21,8 +21,7 @@ class IsItViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         ui_numberInput.delegate = self
-        
-        menuManager().addMenuButton(view: view)
+        menuManager().setMenu(superview: view)
     }
 
     override func didReceiveMemoryWarning() {

@@ -23,7 +23,7 @@ class SearchBetweenViewController: UIViewController, UITableViewDataSource {
         // Do any additional setup after loading the view.
         ui_resultTableView.dataSource = self
         
-        menuManager().addMenuButton(view: view)
+        menuManager().setMenu(superview: view)
     }
 
     override func didReceiveMemoryWarning() {
