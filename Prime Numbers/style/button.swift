@@ -20,6 +20,7 @@ class button: UIButton {
         super.layoutSubviews()
         self.layer.cornerRadius = 10
         self.layer.backgroundColor = superview?.tintColor.cgColor
+        self.titleLabel?.font = UIFont.systemFont(ofSize: 20)
         self.setTitleColor(UIColor(hue: 0, saturation: 0, brightness: 0, alpha: 0.87), for: .normal)
     }
 
@@ -30,5 +31,7 @@ class menuButton: button {
         super.layoutSubviews()
         self.layer.maskedCorners = [.layerMinXMaxYCorner,.layerMinXMinYCorner]
         self.contentEdgeInsets = UIEdgeInsetsMake(8, 40, 8, 40)
+        self.semanticContentAttribute = .forceRightToLeft
+        self.imageEdgeInsets = UIEdgeInsetsMake(4, 0, 0, -20)
     }
 }

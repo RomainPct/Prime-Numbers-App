@@ -6,14 +6,10 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="kompakt.otf">
-            <string>Kompakt-Bold</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
@@ -23,18 +19,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The prime numbers App" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMp-Br-Hkv">
-                                <rect key="frame" x="30" y="270.5" width="315" height="62.5"/>
-                                <fontDescription key="fontDescription" name="Kompakt-Bold" family="Kompakt" pointSize="50"/>
-                                <color key="textColor" red="0.97254901959999995" green="0.49019607840000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchLogo" translatesAutoresizingMaskIntoConstraints="NO" id="6Gs-gR-cfK">
+                                <rect key="frame" x="60" y="173.5" width="255" height="255"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="6Gs-gR-cfK" secondAttribute="height" multiplier="1:1" id="rBY-cy-iTK"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.10980392160000001" green="0.10980392160000001" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KMp-Br-Hkv" secondAttribute="trailing" constant="30" id="8ZD-iF-JiI"/>
-                            <constraint firstItem="KMp-Br-Hkv" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="OHb-Km-fA1"/>
-                            <constraint firstItem="KMp-Br-Hkv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Qse-cS-PuS"/>
+                            <constraint firstItem="6Gs-gR-cfK" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Qds-cf-Y2n"/>
+                            <constraint firstItem="6Gs-gR-cfK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="QzB-Cl-iYC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6Gs-gR-cfK" secondAttribute="trailing" constant="60" id="fiM-7D-wXZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -45,4 +41,7 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="launchLogo" width="250" height="250"/>
+    </resources>
 </document>
