@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  Prime Numbers
+
+  Created by Romain Penchenat on 09/06/2018.
+  Copyright © 2018 Romain Penchenat. All rights reserved.
+*/
+
+// Is It ?
+"notPN" = "n'a pas de diviseur autre que lui-même et 1.";
+"itIs" = "Oui !";
+"itIsNot" = "Non !";
+"noDistinct" = "n'a pas deux diviseurs positifs distincts.";
+"otherDividers" = "a des diviseurs autres que lui-même et un.";
+"incorrectNumber" = "Ce nombre est trop grand pour être analysé sur un Iphone.";
+
+// What is the next ?
+"first" = "est le premier nombre premier après";
+
+
+// Search
+"button1" = "Chercher des nombres premiers";
+"button2" = "Arrêter la recherche";

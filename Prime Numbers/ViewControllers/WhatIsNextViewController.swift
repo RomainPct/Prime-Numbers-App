@@ -33,17 +33,19 @@ class WhatIsNextViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func whatIsNext(_ sender: Any) {
         hideKeyboard()
-        if let numberString = ui_numberInput.text,
-            let numberInt = Int(numberString) {
+        if let numberStr = ui_numberInput.text,
+            let numberInt = Int(numberStr),
+            let numberFormated = numberInt.formated() {
             let nextNumber = manager.searchNextPrimeNumber(after: numberInt)
-            ui_answerLabel.text = "\(nextNumber)"
-            ui_answerDescriptionLabel.text = "is the first prime number after \(numberString)."
-            UIView.transition(with: ui_answerView, duration: 0.3, options: [.transitionCrossDissolve, .curveEaseIn], animations: {
-                self.ui_answerView.isHidden = false
-            }, completion: nil)
+            ui_answerLabel.text = "\(nextNumber.formated()!)"
+            ui_answerDescriptionLabel.text = "\(NSLocalizedString("first", comment: "")) \(numberFormated)."
         } else {
-            print("Data n'est pas un nombre correct")
+            ui_answerLabel.text = ""
+            ui_answerDescriptionLabel.text = NSLocalizedString("incorrectNumber", comment: "")
         }
+        UIView.transition(with: ui_answerView, duration: 0.3, options: [.transitionCrossDissolve, .curveEaseIn], animations: {
+            self.ui_answerView.isHidden = false
+        }, completion: nil)
     }
     
 //    Cacher le clavier

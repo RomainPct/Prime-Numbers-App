@@ -1,0 +1,87 @@
+
+/* Class = "UIButton"; normalTitle = "Research all"; ObjectID = "0AW-Sl-nIg"; */
+"0AW-Sl-nIg.normalTitle" = "Les cherchez tous";
+
+/* Class = "UIButton"; normalTitle = "Search more prime numbers"; ObjectID = "2BD-SS-fqa"; */
+"2BD-SS-fqa.normalTitle" = "Chercher des nombres premiers";
+
+/* Class = "UILabel"; text = "What is the next prime number after :"; ObjectID = "4gr-qG-ED3"; */
+"4gr-qG-ED3.text" = "Quel est le prochain nombre premier après :";
+
+/* Class = "UITextField"; placeholder = "100"; ObjectID = "8ht-qI-Ry7"; */
+"8ht-qI-Ry7.placeholder" = "100";
+
+/* Class = "UILabel"; text = "The prime numbers App"; ObjectID = "AZI-J1-vJ7"; */
+"AZI-J1-vJ7.text" = "The prime numbers App";
+
+/* Class = "UILabel"; text = "answer description"; ObjectID = "FUr-HM-KvE"; */
+"FUr-HM-KvE.text" = "Description de la réponse";
+
+/* Class = "UIButton"; normalTitle = "Search"; ObjectID = "HWy-9f-z9c"; */
+"HWy-9f-z9c.normalTitle" = "Rechercher";
+
+/* Class = "UILabel"; text = "The prime numbers App"; ObjectID = "IFT-ee-rKA"; */
+"IFT-ee-rKA.text" = "The prime numbers App";
+
+/* Class = "UITabBarItem"; title = "Is it ?"; ObjectID = "KuR-US-uSo"; */
+"KuR-US-uSo.title" = "L'est-il ?";
+
+/* Class = "UILabel"; text = "answer description"; ObjectID = "LRN-re-FvT"; */
+"LRN-re-FvT.text" = "Description de la réponse";
+
+/* Class = "UILabel"; text = "number"; ObjectID = "MbY-b7-CNB"; */
+"MbY-b7-CNB.text" = "nombre";
+
+/* Class = "UIButton"; normalTitle = "Launch research"; ObjectID = "Nm3-ZZ-F4q"; */
+"Nm3-ZZ-F4q.normalTitle" = "Lancer la recherche";
+
+/* Class = "UITabBarItem"; title = "Search between"; ObjectID = "T5y-5J-RwQ"; */
+"T5y-5J-RwQ.title" = "Chercher entre";
+
+/* Class = "UITabBarItem"; title = "What's next ?"; ObjectID = "UXM-1T-6uj"; */
+"UXM-1T-6uj.title" = "Quel est le prochain ?";
+
+/* Class = "UILabel"; text = "number"; ObjectID = "V7M-nO-uOh"; */
+"V7M-nO-uOh.text" = "nombre";
+
+/* Class = "UILabel"; text = "and"; ObjectID = "XUY-AB-bfo"; */
+"XUY-AB-bfo.text" = "et";
+
+/* Class = "UIButton"; normalTitle = "What's the next ?"; ObjectID = "YqK-3t-pMm"; */
+"YqK-3t-pMm.normalTitle" = "Quel est le prochain ?";
+
+/* Class = "UITextField"; placeholder = "0"; ObjectID = "bgM-hA-A66"; */
+"bgM-hA-A66.placeholder" = "0";
+
+/* Class = "UIButton"; normalTitle = "Search between"; ObjectID = "cLJ-e4-PVQ"; */
+"cLJ-e4-PVQ.normalTitle" = "Chercher entre";
+
+/* Class = "UITextField"; placeholder = "Put a number here"; ObjectID = "kK7-Ln-xQF"; */
+"kK7-Ln-xQF.placeholder" = "Mettez un nombre ici";
+
+/* Class = "UILabel"; text = "The prime numbers App"; ObjectID = "m3F-gj-uBu"; */
+"m3F-gj-uBu.text" = "The prime numbers App";
+
+/* Class = "UILabel"; text = "number"; ObjectID = "nMM-7P-Uqk"; */
+"nMM-7P-Uqk.text" = "nombre";
+
+/* Class = "UILabel"; text = "The prime numbers App"; ObjectID = "nx3-sJ-CJj"; */
+"nx3-sJ-CJj.text" = "The prime numbers App";
+
+/* Class = "UIViewController"; title = "Is it ?"; ObjectID = "oU0-bQ-h9B"; */
+"oU0-bQ-h9B.title" = "L'est-il ?";
+
+/* Class = "UILabel"; text = "Answer"; ObjectID = "q8V-hI-V7C"; */
+"q8V-hI-V7C.text" = "Réponse";
+
+/* Class = "UILabel"; text = "Search prime numbers between :"; ObjectID = "uUf-Qb-4OL"; */
+"uUf-Qb-4OL.text" = "Chercher les nombres premiers entre :";
+
+/* Class = "UIButton"; normalTitle = "Is it a prime number ?"; ObjectID = "vRF-Of-pP0"; */
+"vRF-Of-pP0.normalTitle" = "Est-ce un nombre premier ?";
+
+/* Class = "UITextField"; placeholder = "Put a number here"; ObjectID = "vph-Sh-12B"; */
+"vph-Sh-12B.placeholder" = "Mettez un nombre ici";
+
+/* Class = "UIButton"; normalTitle = "Is it a prime number ?"; ObjectID = "zHp-yp-5Wk"; */
+"zHp-yp-5Wk.normalTitle" = "Est-ce un nombre premier ?";

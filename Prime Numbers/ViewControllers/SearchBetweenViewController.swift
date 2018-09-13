@@ -51,7 +51,6 @@ class SearchBetweenViewController: UIViewController, UITableViewDataSource {
             showResultTable()
         } else {
             hideResultTable()
-            print("Erreur")
         }
     }
     
@@ -80,7 +79,7 @@ class SearchBetweenViewController: UIViewController, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = ui_resultTableView.dequeueReusableCell(withIdentifier: "classicCell") as! UITableViewCell
-        cell.textLabel?.text = "\(resultTable[indexPath.row])"
+        cell.textLabel?.text = "\(resultTable[indexPath.row].formated()!)"
         return cell
     }
     

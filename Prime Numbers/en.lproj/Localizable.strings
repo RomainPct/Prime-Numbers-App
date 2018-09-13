@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  Prime Numbers
+
+  Created by Romain Penchenat on 09/06/2018.
+  Copyright © 2018 Romain Penchenat. All rights reserved.
+*/
+
+// Is It ?
+"notPN" = "haven’t any dividers except itself and 1.";
+"itIs" = "It is !";
+"itIsNot" = "It is not !";
+"noDistinct" = "hasen't two distinct positive integer divisors";
+"otherDividers" = "has other dividers than itself and 1.";
+"incorrectNumber" = "This number is too big to be analyzed on an Iphone.";
+
+// What is the next ?
+"first" = "is the first prime number after";
+
+
+// Search
+"button1" = "Search more prime numbers";
+"button2" = "Stop the research";

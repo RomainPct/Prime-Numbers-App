@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD8D664E509A9053EE0D94AC /* Pods_Prime_Numbers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75113B0CAD5FA16458D9AB73 /* Pods_Prime_Numbers.framework */; };
+		D8336F5C77658B243B771A90 /* Pods_Prime_NumbersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACA2C1A6AB1391434A69C74 /* Pods_Prime_NumbersTests.framework */; };
 		DE71CFFD2006B42900417B08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE71CFFC2006B42900417B08 /* AppDelegate.swift */; };
 		DE71CFFF2006B42900417B08 /* IsItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE71CFFE2006B42900417B08 /* IsItViewController.swift */; };
 		DE71D0022006B42900417B08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE71D0002006B42900417B08 /* Main.storyboard */; };
@@ -22,6 +24,9 @@
 		DEEEAF0720127CB7008A1B76 /* WhatIsNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEAF0620127CB7008A1B76 /* WhatIsNextViewController.swift */; };
 		DEEEAF0A20128BBD008A1B76 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEAF0920128BBD008A1B76 /* SearchViewController.swift */; };
 		DEF34E322018F1F200BADB18 /* SearchBetweenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF34E312018F1F200BADB18 /* SearchBetweenViewController.swift */; };
+		DEF732E320CBF22600A7AD58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEF732E220CBF22600A7AD58 /* GoogleService-Info.plist */; };
+		DEF732E620CBFED000A7AD58 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEF732E820CBFED000A7AD58 /* Localizable.strings */; };
+		DEF732EB20CC129100A7AD58 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF732EA20CC129100A7AD58 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BC66BEBB7A2E1C15D2950E8 /* Pods-Prime NumbersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prime NumbersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Prime NumbersTests/Pods-Prime NumbersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		179501B20995C06FF306FB1E /* Pods-Prime NumbersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prime NumbersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Prime NumbersTests/Pods-Prime NumbersTests.release.xcconfig"; sourceTree = "<group>"; };
+		3ACA2C1A6AB1391434A69C74 /* Pods_Prime_NumbersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prime_NumbersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75113B0CAD5FA16458D9AB73 /* Pods_Prime_Numbers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prime_Numbers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE71CFF92006B42900417B08 /* Prime Numbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prime Numbers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE71CFFC2006B42900417B08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE71CFFE2006B42900417B08 /* IsItViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsItViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +63,14 @@
 		DEEEAF0620127CB7008A1B76 /* WhatIsNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsNextViewController.swift; sourceTree = "<group>"; };
 		DEEEAF0920128BBD008A1B76 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		DEF34E312018F1F200BADB18 /* SearchBetweenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBetweenViewController.swift; sourceTree = "<group>"; };
+		DEF732E020CBF06600A7AD58 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		DEF732E120CBF06700A7AD58 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DEF732E220CBF22600A7AD58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DEF732E720CBFED000A7AD58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DEF732E920CBFED200A7AD58 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DEF732EA20CC129100A7AD58 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EBB71AD50815AE4ED79ABF5B /* Pods-Prime Numbers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prime Numbers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Prime Numbers/Pods-Prime Numbers.debug.xcconfig"; sourceTree = "<group>"; };
+		EC3D36D4DFDEA897EA6D5D70 /* Pods-Prime Numbers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prime Numbers.release.xcconfig"; path = "Pods/Target Support Files/Pods-Prime Numbers/Pods-Prime Numbers.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD8D664E509A9053EE0D94AC /* Pods_Prime_Numbers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,18 +86,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8336F5C77658B243B771A90 /* Pods_Prime_NumbersTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45E9B00432A44A80D6B7A305 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75113B0CAD5FA16458D9AB73 /* Pods_Prime_Numbers.framework */,
+				3ACA2C1A6AB1391434A69C74 /* Pods_Prime_NumbersTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DE71CFF02006B42900417B08 = {
 			isa = PBXGroup;
 			children = (
 				DE71CFFB2006B42900417B08 /* Prime Numbers */,
 				DE71D0102006B42900417B08 /* Prime NumbersTests */,
 				DE71CFFA2006B42900417B08 /* Products */,
+				E31546321EE073165F2F839B /* Pods */,
+				45E9B00432A44A80D6B7A305 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,15 +125,18 @@
 		DE71CFFB2006B42900417B08 /* Prime Numbers */ = {
 			isa = PBXGroup;
 			children = (
-				DEC50CE1200A1D7500CACEAB /* style */,
-				DEC50CDE200A18AB00CACEAB /* Ressources */,
-				DE71D01E2006B47700417B08 /* class */,
-				DE71CFFC2006B42900417B08 /* AppDelegate.swift */,
-				DE71D0002006B42900417B08 /* Main.storyboard */,
-				DE71D0032006B42900417B08 /* Assets.xcassets */,
-				DE71D0052006B42900417B08 /* LaunchScreen.storyboard */,
+				DEF732E220CBF22600A7AD58 /* GoogleService-Info.plist */,
 				DE71D0082006B42900417B08 /* Info.plist */,
+				DE71CFFC2006B42900417B08 /* AppDelegate.swift */,
+				DEC50CDE200A18AB00CACEAB /* Ressources */,
+				DE71D0032006B42900417B08 /* Assets.xcassets */,
 				DEEEAF0820128B97008A1B76 /* ViewControllers */,
+				DEC50CE1200A1D7500CACEAB /* style */,
+				DE71D01E2006B47700417B08 /* class */,
+				DEF732EA20CC129100A7AD58 /* Extensions.swift */,
+				DEF732E820CBFED000A7AD58 /* Localizable.strings */,
+				DE71D0002006B42900417B08 /* Main.storyboard */,
+				DE71D0052006B42900417B08 /* LaunchScreen.storyboard */,
 			);
 			path = "Prime Numbers";
 			sourceTree = "<group>";
@@ -156,6 +189,17 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		E31546321EE073165F2F839B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBB71AD50815AE4ED79ABF5B /* Pods-Prime Numbers.debug.xcconfig */,
+				EC3D36D4DFDEA897EA6D5D70 /* Pods-Prime Numbers.release.xcconfig */,
+				0BC66BEBB7A2E1C15D2950E8 /* Pods-Prime NumbersTests.debug.xcconfig */,
+				179501B20995C06FF306FB1E /* Pods-Prime NumbersTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -163,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE71D0162006B42900417B08 /* Build configuration list for PBXNativeTarget "Prime Numbers" */;
 			buildPhases = (
+				EE08E3757B43B5F54F254EF1 /* [CP] Check Pods Manifest.lock */,
 				DE71CFF52006B42900417B08 /* Sources */,
 				DE71CFF62006B42900417B08 /* Frameworks */,
 				DE71CFF72006B42900417B08 /* Resources */,
+				3B48E575EEF526E101EDFBC0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE71D0192006B42900417B08 /* Build configuration list for PBXNativeTarget "Prime NumbersTests" */;
 			buildPhases = (
+				43AA7231E7EEE574A1F27B1D /* [CP] Check Pods Manifest.lock */,
 				DE71D0092006B42900417B08 /* Sources */,
 				DE71D00A2006B42900417B08 /* Frameworks */,
 				DE71D00B2006B42900417B08 /* Resources */,
@@ -222,6 +269,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = DE71CFF02006B42900417B08;
 			productRefGroup = DE71CFFA2006B42900417B08 /* Products */;
@@ -240,7 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE71D0072006B42900417B08 /* LaunchScreen.storyboard in Resources */,
+				DEF732E620CBFED000A7AD58 /* Localizable.strings in Resources */,
 				DEC50CE0200A18DA00CACEAB /* kompakt.otf in Resources */,
+				DEF732E320CBF22600A7AD58 /* GoogleService-Info.plist in Resources */,
 				DE71D0042006B42900417B08 /* Assets.xcassets in Resources */,
 				DE71D0022006B42900417B08 /* Main.storyboard in Resources */,
 			);
@@ -255,6 +305,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B48E575EEF526E101EDFBC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Prime Numbers/Pods-Prime Numbers-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Prime Numbers/Pods-Prime Numbers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43AA7231E7EEE574A1F27B1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Prime NumbersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE08E3757B43B5F54F254EF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Prime Numbers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE71CFF52006B42900417B08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -263,6 +372,7 @@
 				DEE0B5CD201A680300418DC4 /* menuManager.swift in Sources */,
 				DEEEAF0720127CB7008A1B76 /* WhatIsNextViewController.swift in Sources */,
 				DEC50CE5200A341F00CACEAB /* input.swift in Sources */,
+				DEF732EB20CC129100A7AD58 /* Extensions.swift in Sources */,
 				DEEEAF0A20128BBD008A1B76 /* SearchViewController.swift in Sources */,
 				DE71CFFF2006B42900417B08 /* IsItViewController.swift in Sources */,
 				DE71D01D2006B46000417B08 /* primeNumbersManager.swift in Sources */,
@@ -296,6 +406,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				DE71D0012006B42900417B08 /* Base */,
+				DEF732E020CBF06600A7AD58 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -304,8 +415,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				DE71D0062006B42900417B08 /* Base */,
+				DEF732E120CBF06700A7AD58 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DEF732E820CBFED000A7AD58 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF732E720CBFED000A7AD58 /* en */,
+				DEF732E920CBFED200A7AD58 /* fr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -315,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -372,6 +494,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -420,13 +543,14 @@
 		};
 		DE71D0172006B42900417B08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB71AD50815AE4ED79ABF5B /* Pods-Prime Numbers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AU9T7HA2AB;
 				INFOPLIST_FILE = "Prime Numbers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "fr.romainpenchenat.Prime-Numbers";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.romainpenchenat.PrimeNumbers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -435,13 +559,14 @@
 		};
 		DE71D0182006B42900417B08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC3D36D4DFDEA897EA6D5D70 /* Pods-Prime Numbers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AU9T7HA2AB;
 				INFOPLIST_FILE = "Prime Numbers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "fr.romainpenchenat.Prime-Numbers";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.romainpenchenat.PrimeNumbers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,6 +575,7 @@
 		};
 		DE71D01A2006B42900417B08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BC66BEBB7A2E1C15D2950E8 /* Pods-Prime NumbersTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +593,7 @@
 		};
 		DE71D01B2006B42900417B08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 179501B20995C06FF306FB1E /* Pods-Prime NumbersTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

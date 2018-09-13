@@ -41,25 +41,30 @@ class IsItViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func isItAction(_ sender: Any) {
         hideKeyboard()
-        if let numberString = ui_numberInput.text,
-            let numberDouble = Double(numberString) {
+        if let numberStr = ui_numberInput.text,
+            let numberInt = Int(numberStr),
+            let numberDouble = Double(numberStr),
+            let numberFormated = numberInt.formated() {
+            print(numberDouble)
+            print(numberFormated)
             if manager.isPrimeNumber(numberToTest: numberDouble) {
-                ui_answerLabel.text = "It is !"
-                ui_answerDescriptionLabel.text = "\(numberString) haven’t any dividers except itself and 1."
+                ui_answerLabel.text = NSLocalizedString("itIs", comment: "")
+                ui_answerDescriptionLabel.text = "\(numberFormated) \(NSLocalizedString("notPN", comment: ""))"
             } else {
-                ui_answerLabel.text = "It is not !"
+                ui_answerLabel.text = NSLocalizedString("itIsNot", comment: "")
                 if numberDouble == 1 {
-                    ui_answerDescriptionLabel.text = ("\(numberString) hasen't two distinct positive integer divisors")
+                    ui_answerDescriptionLabel.text = ("\(numberFormated) \(NSLocalizedString("noDistinct", comment: ""))")
                 } else {
-                    ui_answerDescriptionLabel.text = "\(numberString) has other dividers than itself and 1."
+                    ui_answerDescriptionLabel.text = "\(numberFormated) \(NSLocalizedString("otherDividers", comment: ""))"
                 }
             }
-            UIView.transition(with: ui_answerView, duration: 0.3, options: [.transitionCrossDissolve, .curveEaseIn], animations: {
-                self.ui_answerView.isHidden = false
-            }, completion: nil)
         } else {
-            print("Data n'est pas un nombre correct")
+            ui_answerLabel.text = ""
+            ui_answerDescriptionLabel.text = NSLocalizedString("incorrectNumber", comment: "")
         }
+        UIView.transition(with: ui_answerView, duration: 0.3, options: [.transitionCrossDissolve, .curveEaseIn], animations: {
+            self.ui_answerView.isHidden = false
+        }, completion: nil)
     }
     
     // TextField delegate

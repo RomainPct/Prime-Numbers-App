@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oU0-bQ-h9B">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oU0-bQ-h9B">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -21,14 +21,14 @@
             <objects>
                 <viewController id="UMt-sa-n1I" customClass="SearchViewController" customModule="Prime_Numbers" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gmx-Z2-vo4">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gBJ-ju-bb7" customClass="bottomBorderUIView" customModule="Prime_Numbers" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="-20" width="375" height="102.5"/>
+                                <rect key="frame" x="0.0" y="-20" width="375" height="102.66666666666667"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The prime numbers App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nx3-sJ-CJj">
-                                        <rect key="frame" x="0.0" y="20" width="375" height="62.5"/>
+                                        <rect key="frame" x="0.0" y="19.999999999999996" width="375" height="62.666666666666657"/>
                                         <fontDescription key="fontDescription" name="Kompakt-Bold" family="Kompakt" pointSize="50"/>
                                         <color key="textColor" red="0.97254901959999995" green="0.49019607840000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -42,7 +42,7 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gZ1-k2-bCx">
-                                <rect key="frame" x="0.0" y="92.5" width="375" height="510.5"/>
+                                <rect key="frame" x="0.0" y="92.666666666666686" width="375" height="631.33333333333326"/>
                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="separatorColor" red="1" green="1" blue="1" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -51,11 +51,11 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="49"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Q44-qz-ihg" id="uTw-kD-pD4">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="48.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="48.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nMM-7P-Uqk">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="48.5"/>
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="48.666666666666664"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -68,12 +68,13 @@
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2BD-SS-fqa" customClass="button" customModule="Prime_Numbers" customModuleProvider="target">
-                                <rect key="frame" x="40" y="443" width="295" height="40"/>
+                                <rect key="frame" x="45" y="564" width="285" height="40"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.49019607840000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="UR5-3Y-3UN"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                                 <state key="normal" title="Search more prime numbers">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.87" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -82,7 +83,7 @@
                                 </connections>
                             </button>
                             <containerView opaque="NO" clipsSubviews="YES" tag="100" contentMode="scaleToFill" restorationIdentifier="menu" translatesAutoresizingMaskIntoConstraints="NO" id="glO-TC-fTb">
-                                <rect key="frame" x="300" y="83" width="375" height="520"/>
+                                <rect key="frame" x="300" y="83" width="375" height="641"/>
                                 <connections>
                                     <segue destination="eR5-HY-jXr" kind="embed" id="R7b-xj-gSW"/>
                                 </connections>
@@ -94,18 +95,19 @@
                             <constraint firstItem="gBJ-ju-bb7" firstAttribute="leading" secondItem="7v2-JR-e7k" secondAttribute="leading" id="0Gw-Db-tYR"/>
                             <constraint firstItem="gBJ-ju-bb7" firstAttribute="top" secondItem="gmx-Z2-vo4" secondAttribute="top" constant="-20" id="EZb-hW-8eP"/>
                             <constraint firstItem="7v2-JR-e7k" firstAttribute="top" secondItem="nx3-sJ-CJj" secondAttribute="top" id="GWU-M2-Cft"/>
-                            <constraint firstItem="7v2-JR-e7k" firstAttribute="bottom" secondItem="gZ1-k2-bCx" secondAttribute="bottom" id="Q7Y-Ro-U8Z"/>
+                            <constraint firstAttribute="bottom" secondItem="gZ1-k2-bCx" secondAttribute="bottom" id="Q7Y-Ro-U8Z"/>
                             <constraint firstItem="glO-TC-fTb" firstAttribute="top" secondItem="gBJ-ju-bb7" secondAttribute="bottom" id="ehY-lb-qR1"/>
-                            <constraint firstItem="2BD-SS-fqa" firstAttribute="leading" secondItem="7v2-JR-e7k" secondAttribute="leading" constant="40" id="hOi-dp-EtB"/>
+                            <constraint firstItem="2BD-SS-fqa" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="7v2-JR-e7k" secondAttribute="leading" constant="20" id="hOi-dp-EtB"/>
                             <constraint firstItem="glO-TC-fTb" firstAttribute="width" secondItem="gmx-Z2-vo4" secondAttribute="width" id="o27-Mw-FJ7"/>
                             <constraint firstAttribute="bottom" secondItem="2BD-SS-fqa" secondAttribute="bottom" constant="120" id="qPe-RY-sN2"/>
                             <constraint firstItem="gZ1-k2-bCx" firstAttribute="leading" secondItem="7v2-JR-e7k" secondAttribute="leading" id="qow-1g-ksz"/>
                             <constraint firstItem="7v2-JR-e7k" firstAttribute="trailing" secondItem="gZ1-k2-bCx" secondAttribute="trailing" id="r8u-PX-aXI"/>
+                            <constraint firstItem="2BD-SS-fqa" firstAttribute="centerX" secondItem="gmx-Z2-vo4" secondAttribute="centerX" id="sf6-HD-Xpb"/>
                             <constraint firstItem="7v2-JR-e7k" firstAttribute="leading" secondItem="glO-TC-fTb" secondAttribute="leading" constant="-300" identifier="menuLeading" id="slQ-JI-OUD"/>
                             <constraint firstAttribute="bottom" secondItem="glO-TC-fTb" secondAttribute="bottom" id="tYY-0b-cfj"/>
                             <constraint firstItem="gZ1-k2-bCx" firstAttribute="top" secondItem="gBJ-ju-bb7" secondAttribute="bottom" constant="10" id="uFZ-da-AiI"/>
                             <constraint firstItem="gBJ-ju-bb7" firstAttribute="trailing" secondItem="7v2-JR-e7k" secondAttribute="trailing" id="ugf-RQ-PYU"/>
-                            <constraint firstItem="7v2-JR-e7k" firstAttribute="trailing" secondItem="2BD-SS-fqa" secondAttribute="trailing" constant="40" id="vhC-AC-gS0"/>
+                            <constraint firstItem="7v2-JR-e7k" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="2BD-SS-fqa" secondAttribute="trailing" constant="20" id="vhC-AC-gS0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7v2-JR-e7k"/>
                     </view>
@@ -125,14 +127,14 @@
             <objects>
                 <viewController id="Atl-Tr-b9e" customClass="SearchBetweenViewController" customModule="Prime_Numbers" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WLW-q1-fKw">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D1M-6G-UAQ" customClass="bottomBorderUIView" customModule="Prime_Numbers" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="-20" width="375" height="102.5"/>
+                                <rect key="frame" x="0.0" y="-20" width="375" height="102.33333333333333"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The prime numbers App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3F-gj-uBu">
-                                        <rect key="frame" x="0.0" y="20" width="375" height="62.5"/>
+                                        <rect key="frame" x="0.0" y="20.000000000000004" width="375" height="62.333333333333343"/>
                                         <fontDescription key="fontDescription" name="Kompakt-Bold" family="Kompakt" pointSize="50"/>
                                         <color key="textColor" red="0.97254901959999995" green="0.49019607840000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -146,7 +148,7 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hTz-Fa-uWt">
-                                <rect key="frame" x="30" y="146.5" width="315" height="60"/>
+                                <rect key="frame" x="30" y="146.33333333333334" width="315" height="60"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="0" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="bgM-hA-A66" customClass="input" customModule="Prime_Numbers" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="105" height="60"/>
@@ -175,12 +177,13 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nm3-ZZ-F4q" customClass="button" customModule="Prime_Numbers" customModuleProvider="target">
-                                <rect key="frame" x="60" y="226.5" width="255" height="40"/>
+                                <rect key="frame" x="95.666666666666686" y="226.33333333333331" width="184" height="40"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.49019607840000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="7cd-iB-wLR"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                                 <state key="normal" title="Launch research">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.87" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -190,24 +193,25 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search prime numbers between :" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uUf-Qb-4OL">
-                                <rect key="frame" x="30" y="102.5" width="315" height="24"/>
+                                <rect key="frame" x="30" y="102.33333333333334" width="315" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Z3c-OW-mJg">
-                                <rect key="frame" x="0.0" y="306.5" width="375" height="296.5"/>
+                                <rect key="frame" x="0.0" y="306.33333333333326" width="375" height="417.66666666666674"/>
                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationWidth="0.0" reuseIdentifier="classicCell" textLabel="V7M-nO-uOh" rowHeight="49" style="IBUITableViewCellStyleDefault" id="FFG-J3-vjE">
                                         <rect key="frame" x="0.0" y="28" width="375" height="49"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FFG-J3-vjE" id="wjA-cU-bts">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="48.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="48.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="V7M-nO-uOh">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="48.5"/>
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="48.666666666666664"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -220,7 +224,7 @@
                                 </prototypes>
                             </tableView>
                             <containerView opaque="NO" clipsSubviews="YES" tag="100" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HXe-Nl-OfW">
-                                <rect key="frame" x="300" y="83" width="375" height="520"/>
+                                <rect key="frame" x="300" y="83" width="375" height="607"/>
                                 <connections>
                                     <segue destination="eR5-HY-jXr" kind="embed" id="vvi-F5-5qA"/>
                                 </connections>
@@ -234,8 +238,9 @@
                             <constraint firstItem="D1M-6G-UAQ" firstAttribute="trailing" secondItem="6MQ-pm-Yqt" secondAttribute="trailing" id="6ni-uH-LGv"/>
                             <constraint firstItem="Z3c-OW-mJg" firstAttribute="leading" secondItem="6MQ-pm-Yqt" secondAttribute="leading" id="IGE-qe-euJ"/>
                             <constraint firstItem="6MQ-pm-Yqt" firstAttribute="trailing" secondItem="uUf-Qb-4OL" secondAttribute="trailing" constant="30" id="IHM-3k-L1c"/>
+                            <constraint firstItem="Nm3-ZZ-F4q" firstAttribute="centerX" secondItem="WLW-q1-fKw" secondAttribute="centerX" id="Ibh-3R-eDu"/>
                             <constraint firstItem="D1M-6G-UAQ" firstAttribute="top" secondItem="WLW-q1-fKw" secondAttribute="top" constant="-20" id="KUC-Dg-Emd"/>
-                            <constraint firstItem="6MQ-pm-Yqt" firstAttribute="trailing" secondItem="Nm3-ZZ-F4q" secondAttribute="trailing" constant="60" id="NC7-HQ-kee"/>
+                            <constraint firstItem="6MQ-pm-Yqt" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Nm3-ZZ-F4q" secondAttribute="trailing" constant="20" id="NC7-HQ-kee"/>
                             <constraint firstItem="D1M-6G-UAQ" firstAttribute="leading" secondItem="6MQ-pm-Yqt" secondAttribute="leading" id="Nmo-nb-jlv"/>
                             <constraint firstItem="6MQ-pm-Yqt" firstAttribute="bottom" secondItem="HXe-Nl-OfW" secondAttribute="bottom" id="Qkf-KY-W0A"/>
                             <constraint firstItem="Nm3-ZZ-F4q" firstAttribute="top" secondItem="hTz-Fa-uWt" secondAttribute="bottom" constant="20" id="STl-vS-9Gh"/>
@@ -247,9 +252,9 @@
                             <constraint firstItem="6MQ-pm-Yqt" firstAttribute="leading" secondItem="HXe-Nl-OfW" secondAttribute="leading" constant="-300" identifier="menuLeading" id="dc8-aw-ccn"/>
                             <constraint firstItem="hTz-Fa-uWt" firstAttribute="top" secondItem="uUf-Qb-4OL" secondAttribute="bottom" constant="20" id="lVh-67-8st"/>
                             <constraint firstItem="uUf-Qb-4OL" firstAttribute="leading" secondItem="6MQ-pm-Yqt" secondAttribute="leading" constant="30" id="qah-6u-Sgf"/>
-                            <constraint firstItem="Nm3-ZZ-F4q" firstAttribute="leading" secondItem="6MQ-pm-Yqt" secondAttribute="leading" constant="60" id="rvy-zg-SYw"/>
+                            <constraint firstItem="Nm3-ZZ-F4q" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6MQ-pm-Yqt" secondAttribute="leading" constant="20" id="rvy-zg-SYw"/>
                             <constraint firstItem="HXe-Nl-OfW" firstAttribute="top" secondItem="D1M-6G-UAQ" secondAttribute="bottom" id="tFv-ST-Jla"/>
-                            <constraint firstItem="6MQ-pm-Yqt" firstAttribute="bottom" secondItem="Z3c-OW-mJg" secondAttribute="bottom" id="vm7-Am-tCh"/>
+                            <constraint firstAttribute="bottom" secondItem="Z3c-OW-mJg" secondAttribute="bottom" id="vm7-Am-tCh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6MQ-pm-Yqt"/>
                         <connections>
@@ -278,14 +283,14 @@
             <objects>
                 <viewController id="TnV-OY-ZuA" customClass="WhatIsNextViewController" customModule="Prime_Numbers" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ymo-1K-RQx">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SjB-Nn-ekA" customClass="bottomBorderUIView" customModule="Prime_Numbers" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="-20" width="375" height="102.5"/>
+                                <rect key="frame" x="0.0" y="-20" width="375" height="102.66666666666667"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The prime numbers App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IFT-ee-rKA">
-                                        <rect key="frame" x="0.0" y="20" width="375" height="62.5"/>
+                                        <rect key="frame" x="0.0" y="19.999999999999996" width="375" height="62.666666666666657"/>
                                         <fontDescription key="fontDescription" name="Kompakt-Bold" family="Kompakt" pointSize="50"/>
                                         <color key="textColor" red="0.97254901959999995" green="0.49019607840000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -299,12 +304,13 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HWy-9f-z9c" customClass="button" customModule="Prime_Numbers" customModuleProvider="target">
-                                <rect key="frame" x="60" y="260.5" width="255" height="40"/>
+                                <rect key="frame" x="137" y="260.66666666666669" width="101" height="40"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.49019607840000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="fiM-gG-S9V"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                                 <state key="normal" title="Search">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.87" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -314,13 +320,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is the next prime number after :" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4gr-qG-ED3">
-                                <rect key="frame" x="60" y="122.5" width="255" height="48"/>
+                                <rect key="frame" x="60" y="122.66666666666666" width="255" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Put a number here" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="vph-Sh-12B" customClass="input" customModule="Prime_Numbers" customModuleProvider="target">
-                                <rect key="frame" x="30" y="180.5" width="315" height="60"/>
+                                <rect key="frame" x="30" y="180.66666666666669" width="315" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="eek-wO-uTf"/>
                                 </constraints>
@@ -329,16 +335,16 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="go"/>
                             </textField>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b2c-tx-Ywf">
-                                <rect key="frame" x="30" y="340.5" width="315" height="91.5"/>
+                                <rect key="frame" x="30" y="340.66666666666669" width="315" height="90.666666666666686"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="number" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MbY-b7-CNB">
-                                        <rect key="frame" x="0.0" y="0.0" width="315" height="63"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="number" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="MbY-b7-CNB">
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="62.333333333333336"/>
                                         <fontDescription key="fontDescription" name="Kompakt-Bold" family="Kompakt" pointSize="50"/>
                                         <color key="textColor" red="0.97254901959999995" green="0.49019607840000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="answer description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FUr-HM-KvE">
-                                        <rect key="frame" x="0.0" y="67.5" width="315" height="24"/>
+                                        <rect key="frame" x="0.0" y="66.666666666666629" width="315" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="textColor" red="0.97254901959999995" green="0.49019607840000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -355,7 +361,7 @@
                                 </constraints>
                             </view>
                             <containerView opaque="NO" clipsSubviews="YES" tag="100" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mag-XW-aKL">
-                                <rect key="frame" x="300" y="83" width="375" height="520"/>
+                                <rect key="frame" x="300" y="83" width="375" height="607"/>
                                 <connections>
                                     <segue destination="eR5-HY-jXr" kind="embed" id="jAu-ZV-dsx"/>
                                 </connections>
@@ -373,13 +379,14 @@
                             <constraint firstItem="2dS-Fx-GgJ" firstAttribute="trailing" secondItem="vph-Sh-12B" secondAttribute="trailing" constant="30" id="VPd-ZH-eDa"/>
                             <constraint firstItem="HWy-9f-z9c" firstAttribute="top" secondItem="vph-Sh-12B" secondAttribute="bottom" constant="20" id="Xi1-SN-8NY"/>
                             <constraint firstItem="mag-XW-aKL" firstAttribute="width" secondItem="Ymo-1K-RQx" secondAttribute="width" id="Ya7-dI-Fe3"/>
+                            <constraint firstItem="HWy-9f-z9c" firstAttribute="centerX" secondItem="Ymo-1K-RQx" secondAttribute="centerX" id="Zp9-Zi-Zif"/>
                             <constraint firstItem="SjB-Nn-ekA" firstAttribute="leading" secondItem="2dS-Fx-GgJ" secondAttribute="leading" id="cyk-Jh-96I"/>
                             <constraint firstItem="vph-Sh-12B" firstAttribute="leading" secondItem="2dS-Fx-GgJ" secondAttribute="leading" constant="30" id="e5T-Y5-LKm"/>
-                            <constraint firstItem="2dS-Fx-GgJ" firstAttribute="trailing" secondItem="HWy-9f-z9c" secondAttribute="trailing" constant="60" id="hdN-yt-gdd"/>
+                            <constraint firstItem="2dS-Fx-GgJ" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="HWy-9f-z9c" secondAttribute="trailing" constant="20" id="hdN-yt-gdd"/>
                             <constraint firstItem="2dS-Fx-GgJ" firstAttribute="trailing" secondItem="b2c-tx-Ywf" secondAttribute="trailing" constant="30" id="hth-Zx-r3i"/>
                             <constraint firstItem="b2c-tx-Ywf" firstAttribute="leading" secondItem="2dS-Fx-GgJ" secondAttribute="leading" constant="30" id="i9R-Ie-1Ib"/>
                             <constraint firstItem="4gr-qG-ED3" firstAttribute="leading" secondItem="2dS-Fx-GgJ" secondAttribute="leading" constant="60" id="iBa-av-8XI"/>
-                            <constraint firstItem="HWy-9f-z9c" firstAttribute="leading" secondItem="2dS-Fx-GgJ" secondAttribute="leading" constant="60" id="kA2-Q3-PdW"/>
+                            <constraint firstItem="HWy-9f-z9c" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="2dS-Fx-GgJ" secondAttribute="leading" constant="20" id="kA2-Q3-PdW"/>
                             <constraint firstItem="mag-XW-aKL" firstAttribute="top" secondItem="SjB-Nn-ekA" secondAttribute="bottom" id="pBL-8j-5QT"/>
                             <constraint firstItem="2dS-Fx-GgJ" firstAttribute="top" secondItem="IFT-ee-rKA" secondAttribute="top" id="qIV-4y-1iP"/>
                             <constraint firstItem="2dS-Fx-GgJ" firstAttribute="leading" secondItem="mag-XW-aKL" secondAttribute="leading" constant="-300" identifier="menuLeading" id="sBT-AY-k8i"/>
@@ -408,44 +415,19 @@
             </objects>
             <point key="canvasLocation" x="-383.19999999999999" y="-264.01799100449779"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="DCU-Sq-e6n">
-            <objects>
-                <viewController id="o8c-1J-d7o" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="A7g-6f-Q8B">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRs-dY-1HW">
-                                <rect key="frame" x="35" y="331" width="304" height="250"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Button" image="launchLogo">
-                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="9Nb-oM-E8U"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x7l-n1-SWQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="366" y="18"/>
-        </scene>
         <!--Is it ?-->
         <scene sceneID="uKF-FD-hmp">
             <objects>
                 <viewController title="Is it ?" id="oU0-bQ-h9B" customClass="IsItViewController" customModule="Prime_Numbers" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eTi-Wd-pcQ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sds-pk-y9n" customClass="bottomBorderUIView" customModule="Prime_Numbers" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="82.5"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="82.333333333333329"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The prime numbers App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZI-J1-vJ7">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="62.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="62.333333333333336"/>
                                         <fontDescription key="fontDescription" name="Kompakt-Bold" family="Kompakt" pointSize="50"/>
                                         <color key="textColor" red="0.97254901960784312" green="0.49019607843137253" blue="0.13725490196078433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -459,7 +441,7 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="w8v-Ff-FQk">
-                                <rect key="frame" x="0.0" y="122.5" width="375" height="120"/>
+                                <rect key="frame" x="0.0" y="122.33333333333334" width="375" height="120"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Put a number here" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="kK7-Ln-xQF" customClass="input" customModule="Prime_Numbers" customModuleProvider="target">
                                         <rect key="frame" x="30" y="0.0" width="315" height="60"/>
@@ -471,12 +453,14 @@
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="go"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRF-Of-pP0" customClass="button" customModule="Prime_Numbers" customModuleProvider="target">
-                                        <rect key="frame" x="60" y="80" width="255" height="40"/>
+                                        <rect key="frame" x="75" y="79.999999999999972" width="225" height="40"/>
                                         <color key="backgroundColor" red="0.97254901959999995" green="0.49019607840000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="0Xx-8A-wqz"/>
                                         </constraints>
+                                        <viewLayoutGuide key="safeArea" id="JDm-Kq-xRr"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                                         <state key="normal" title="Is it a prime number ?">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.87" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -487,23 +471,24 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="kK7-Ln-xQF" secondAttribute="trailing" constant="30" id="BLc-SP-ShL"/>
-                                    <constraint firstAttribute="trailing" secondItem="vRF-Of-pP0" secondAttribute="trailing" constant="60" id="Okc-Md-uqf"/>
-                                    <constraint firstItem="vRF-Of-pP0" firstAttribute="leading" secondItem="w8v-Ff-FQk" secondAttribute="leading" constant="60" id="iKd-ri-k4v"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vRF-Of-pP0" secondAttribute="trailing" constant="20" id="Okc-Md-uqf"/>
+                                    <constraint firstItem="vRF-Of-pP0" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="w8v-Ff-FQk" secondAttribute="leading" constant="20" id="iKd-ri-k4v"/>
+                                    <constraint firstItem="vRF-Of-pP0" firstAttribute="centerX" secondItem="w8v-Ff-FQk" secondAttribute="centerX" id="j2r-zz-KS1"/>
                                     <constraint firstItem="kK7-Ln-xQF" firstAttribute="leading" secondItem="w8v-Ff-FQk" secondAttribute="leading" constant="30" id="qjJ-SK-vYH"/>
                                     <constraint firstItem="vRF-Of-pP0" firstAttribute="top" secondItem="kK7-Ln-xQF" secondAttribute="bottom" constant="20" id="slb-uJ-7rM"/>
                                 </constraints>
                             </stackView>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="543-nc-yOL">
-                                <rect key="frame" x="30" y="282.5" width="315" height="91.5"/>
+                                <rect key="frame" x="30" y="282.33333333333331" width="315" height="91.333333333333314"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q8V-hI-V7C">
-                                        <rect key="frame" x="0.0" y="0.0" width="315" height="62.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="q8V-hI-V7C">
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="62.333333333333336"/>
                                         <fontDescription key="fontDescription" name="Kompakt-Bold" family="Kompakt" pointSize="50"/>
                                         <color key="textColor" red="0.97254901959999995" green="0.49019607840000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="answer description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LRN-re-FvT">
-                                        <rect key="frame" x="0.0" y="67.5" width="315" height="24"/>
+                                        <rect key="frame" x="0.0" y="67.333333333333371" width="315" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="textColor" red="0.97254901959999995" green="0.49019607840000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -520,7 +505,7 @@
                                 </constraints>
                             </view>
                             <containerView opaque="NO" clipsSubviews="YES" tag="100" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3kp-dv-IzA">
-                                <rect key="frame" x="300" y="82.5" width="375" height="520.5"/>
+                                <rect key="frame" x="300" y="82.333333333333314" width="375" height="607.66666666666674"/>
                                 <connections>
                                     <segue destination="eR5-HY-jXr" kind="embed" id="JVZ-5M-6dy"/>
                                 </connections>
@@ -573,7 +558,7 @@
             <objects>
                 <viewController id="eR5-HY-jXr" sceneMemberID="viewController">
                     <view key="view" tag="666" contentMode="scaleToFill" id="mgs-Lm-Rc6">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLJ-e4-PVQ" customClass="menuButton" customModule="Prime_Numbers" customModuleProvider="target">
@@ -630,10 +615,7 @@
             <point key="canvasLocation" x="-1370" y="-264"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="launchLogo" width="250" height="250"/>
-    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="R7b-xj-gSW"/>
+        <segue reference="JVZ-5M-6dy"/>
     </inferredMetricsTieBreakers>
 </document>

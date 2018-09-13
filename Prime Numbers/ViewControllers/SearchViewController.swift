@@ -36,21 +36,21 @@ class SearchViewController: UIViewController, UITableViewDataSource {
     @IBAction func researchButtonTapped(_ sender: Any) {
         isSearching = !isSearching
         if !isSearching {
-            ui_searchButton.setTitle("Search more prime numbers", for: .normal)
+            ui_searchButton.setTitle(NSLocalizedString("button1", comment: ""), for: .normal)
         } else {
-            ui_searchButton.setTitle("Stop the research", for: .normal)
+            ui_searchButton.setTitle(NSLocalizedString("button2", comment: ""), for: .normal)
             searchPrimeNumbers()
         }
     }
     
     func searchPrimeNumbers() {
-        let background = DispatchQueue.global()
+        let background = DispatchQueue(label: "research", qos: .userInitiated)
         background.async {
             var lastPrimeNumber = self.primeNumbers.last ?? 0
             while self.isSearching {
                 lastPrimeNumber = self.manager.searchNextPrimeNumber(after: lastPrimeNumber)
                 self.newValue(number: lastPrimeNumber)
-                usleep( 20000 + UInt32(lastPrimeNumber / 2))
+                usleep( 5000 + UInt32(lastPrimeNumber / 10))
             }
         }
     }
@@ -69,7 +69,7 @@ class SearchViewController: UIViewController, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = ui_primeNumbersTable.dequeueReusableCell(withIdentifier: "classicCell") as! UITableViewCell
-        cell.textLabel?.text = "\(primeNumbers[primeNumbers.count - indexPath.row - 1])"
+        cell.textLabel?.text = "\(primeNumbers[primeNumbers.count - indexPath.row - 1].formated()!)"
         return cell
     }
     
