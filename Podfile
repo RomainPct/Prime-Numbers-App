@@ -7,6 +7,7 @@ target 'Prime Numbers' do
 
   # Pods for Prime Numbers
 pod 'Firebase/Core'
+pod 'Firebase/AdMob'
 
   target 'Prime NumbersTests' do
     inherit! :search_paths

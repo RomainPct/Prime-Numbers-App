@@ -30,8 +30,8 @@ class menuButton: button {
     override func layoutSubviews() {
         super.layoutSubviews()
         self.layer.maskedCorners = [.layerMinXMaxYCorner,.layerMinXMinYCorner]
-        self.contentEdgeInsets = UIEdgeInsetsMake(8, 40, 8, 40)
+        self.contentEdgeInsets = UIEdgeInsets.init(top: 8, left: 40, bottom: 8, right: 40)
         self.semanticContentAttribute = .forceRightToLeft
-        self.imageEdgeInsets = UIEdgeInsetsMake(4, 0, 0, -20)
+        self.imageEdgeInsets = UIEdgeInsets.init(top: 4, left: 0, bottom: 0, right: -20)
     }
 }

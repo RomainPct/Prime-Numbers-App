@@ -27,7 +27,7 @@ class input: UITextField {
         self.layer.borderColor = self.tintColor.cgColor
         
         let color = UIColor(hue: 0, saturation: 0, brightness: 1, alpha: 0.5)
-        self.attributedPlaceholder = NSAttributedString(string: self.placeholder ?? "", attributes: [NSAttributedStringKey.foregroundColor : color])
+        self.attributedPlaceholder = NSAttributedString(string: self.placeholder ?? "", attributes: [NSAttributedString.Key.foregroundColor : color])
     }
 
 }

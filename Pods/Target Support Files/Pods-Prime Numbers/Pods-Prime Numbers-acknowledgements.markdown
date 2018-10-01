@@ -219,7 +219,15 @@ Copyright 2018 Google
 
 Copyright 2018 Google
 
-## GoogleToolboxForMac
+## Google-Mobile-Ads-SDK
+
+Copyright 2018 Google
+
+## GoogleAppMeasurement
+
+Copyright 2018 Google
+
+## GoogleUtilities
 
 
                                  Apache License
